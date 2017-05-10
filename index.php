@@ -34,6 +34,10 @@ switch ( $route->getController() ) {
         include( APP_CONTROLLER . '/homeController.php');
         break;
 
+    case 'product':
+        include( APP_CONTROLLER . '/productController.php');
+        break;
+        
     default:
         include( APP_CONTROLLER . '/homeController.php');
         break;

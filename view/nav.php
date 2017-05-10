@@ -9,11 +9,12 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">Project name</a>
+          <a class="navbar-brand" href="<?php print APP_DOC_ROOT . '/home'; ?>">Millennials Cafe</a>
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
-            <li><a href="#">Menu 1</a></li>
+            <li><a href="<?php print APP_DOC_ROOT . '/home'; ?>">Home</a></li>
+            <li><a href="<?php print APP_DOC_ROOT . '/product'; ?>">Products</a></li>
             <li><a href="#">Menu 2</a></li>
             <li><a href="#">Menu 3</a></li>
             <li class="dropdown">
