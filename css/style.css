@@ -30,3 +30,21 @@ body > .container {
 #footer > .container {
   padding: 15px 15px 0 15px;
 }
+#addForm h3, label{
+  color: white;
+}
+#carousel-example-generic{
+  background-color: black;
+  height: 400px;
+}
+#carousel-example-generic img{
+		/*width: 70%;
+		height: 70%;*/
+		margin: auto;
+}
+.carousel-caption h2 p{
+  color: white;
+}
+#alertDiv{
+  width: 50%;
+}

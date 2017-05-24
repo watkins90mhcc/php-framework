@@ -2,18 +2,19 @@
     <!-- main navigation -->
     <div class="navbar navbar-default navbar-fixed-top" role="navigation">
       <div class="container-fluid">
-        <div class="navbar-header">
+        <div class="navbar-header" id="headerNav" >
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
             <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="<?php print APP_DOC_ROOT . '/home'; ?>">Millennials Cafe</a>
+          <a class="navbar-brand" href="<?php print APP_DOC_ROOT . '/home'; ?>">Millennial's Cafe</a>
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
             <li><a href="<?php print APP_DOC_ROOT . '/home'; ?>">Home</a></li>
+            <li><a href="<?php print APP_DOC_ROOT . '/about'; ?>">About</a></li>
             <li><a href="<?php print APP_DOC_ROOT . '/product'; ?>">Products</a></li>
             <li><a href="#">Menu 2</a></li>
             <li><a href="#">Menu 3</a></li>
