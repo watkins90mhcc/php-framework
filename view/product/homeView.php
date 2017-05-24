@@ -2,7 +2,7 @@
         <!-- page content -->
         <div class="col-md-9">
           <div class="pageContent">
-            <table class="table table-hover table-bordered">
+            <table class="table table-hover table-bordered" style="background-color: Orange;">
               <thead>
           <tr>
              <th>Product</th>
